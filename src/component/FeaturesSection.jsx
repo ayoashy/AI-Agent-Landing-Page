@@ -1,4 +1,3 @@
-import React from 'react';
 import { Zap, Shield, Gift, Cpu, Network, Rocket } from 'lucide-react';
 
 const FeaturesSection = () => {

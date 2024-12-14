@@ -1,6 +1,10 @@
 // Import React and TailwindCSS
 
+import CommunitySection from "./CommunitySection";
 import FeaturesSection from "./FeaturesSection";
+// import Footer from "./Footer";
+import HeroSection from "./HeroSection";
+import RewardsSection from "./RewardsSection";
 
 const AIAgentLanding = () => {
   return (
@@ -37,7 +41,7 @@ const AIAgentLanding = () => {
       </header>
 
       {/* Hero Section */}
-      <section className='text-center py-20 bg-black'>
+      {/* <section className='text-center py-20 bg-black'>
         <div className='container mx-auto px-4'>
           <h2 className='text-5xl font-extrabold mb-6'>
             Revolutionize Engagement with Our Web3 AI Agent
@@ -51,13 +55,14 @@ const AIAgentLanding = () => {
             Get Started
           </button>
         </div>
-      </section>
+      </section> */}
+      <HeroSection />
 
 
       <FeaturesSection />
 
       {/* Rewards Section */}
-      <section id='rewards' className='py-20 bg-gray-900'>
+      {/* <section id='rewards' className='py-20 bg-gray-900'>
         <div className='container mx-auto px-4 text-center'>
           <h3 className='text-4xl font-bold mb-12'>Rewards</h3>
           <p className='text-lg mb-8'>
@@ -70,10 +75,11 @@ const AIAgentLanding = () => {
             className='mx-auto max-w-lg rounded-lg'
           />
         </div>
-      </section>
+      </section> */}
+      <RewardsSection />
 
       {/* Community Section */}
-      <section id='community' className='py-20 bg-gray-800'>
+      {/* <section id='community' className='py-20 bg-gray-800'>
         <div className='container mx-auto px-4 text-center'>
           <h3 className='text-4xl font-bold mb-12'>Join the Community</h3>
           <p className='text-lg mb-8'>
@@ -98,7 +104,8 @@ const AIAgentLanding = () => {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
+      <CommunitySection />
 
       {/* Footer Section */}
       <footer className='py-6 bg-black'>
@@ -108,6 +115,7 @@ const AIAgentLanding = () => {
           </p>
         </div>
       </footer>
+      {/* <Footer /> */}
     </div>
   );
 };
